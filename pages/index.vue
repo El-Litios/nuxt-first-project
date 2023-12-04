@@ -25,5 +25,11 @@ sayHello(); */
 //Plugins
 const { $sayHello } = useNuxtApp();
 $sayHello('usando plugins');
+
+
+//define middleware without globalize
+definePageMeta({
+    middleware: 'auth'
+})
 </script>
 
