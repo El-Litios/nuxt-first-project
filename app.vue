@@ -1,12 +1,12 @@
 <template>
   <div>
     <NuxtLayout>
-      <header>
+      <!-- <header>
         <ul>
           <li><NuxtLink to="/">Home</NuxtLink></li>
           <li><NuxtLink to="/events">Events</NuxtLink></li>
         </ul>
-      </header>
+      </header> -->
       <NuxtPage></NuxtPage>
     </NuxtLayout>
   </div>
