@@ -16,3 +16,9 @@
     </div>
 </template>
 
+<script setup>
+const { sayHello } = useUtils();
+
+sayHello();
+</script>
+

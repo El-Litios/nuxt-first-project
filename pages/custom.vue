@@ -9,4 +9,9 @@ definePageMeta({
     layout: 'custom'
 })
 
+
+const { sayHello } = useUtils();
+
+sayHello();
+
 </script>
