@@ -17,8 +17,12 @@
 </template>
 
 <script setup>
-const { sayHello } = useUtils();
+//Composable function call
+/* const { sayHello } = useUtils();
 
-sayHello();
+sayHello(); */
+
+const { $sayHello } = useNuxtApp();
+$sayHello('usando plugins');
 </script>
 
