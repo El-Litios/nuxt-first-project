@@ -22,6 +22,7 @@
 
 sayHello(); */
 
+//Plugins
 const { $sayHello } = useNuxtApp();
 $sayHello('usando plugins');
 </script>
