@@ -13,6 +13,12 @@
         <img src="/2.jpg" alt=""> <!-- Image access in public -->
 
         <IconsBell></IconsBell>
+
+        <!-- Modules with nuxt/content -->
+        <div>
+            <ContentDoc></ContentDoc>
+        </div>
+
     </div>
 </template>
 
